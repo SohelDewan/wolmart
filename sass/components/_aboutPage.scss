@@ -1,0 +1,24 @@
+#about_page {
+
+    .market_head {
+        h1 {
+            margin-bottom: 1.3rem;
+            font-size: 36px;
+            font-weight: 700;
+        }
+        p{
+                margin-bottom: 2.3rem;
+                max-width: 57rem;
+        }
+    }
+
+    .about_img {
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        overflow: hidden;
+    }
+
+}

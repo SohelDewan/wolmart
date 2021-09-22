@@ -1,0 +1,24 @@
+#success_story{
+    padding: 100px 0;
+    background: #ddd;
+    .story_text{
+        font-family: $poppins;
+        h5{
+            color: #336699;
+            margin-bottom: 15px;
+        }
+        h2{
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        p{
+            color: #333;
+            margin-bottom: 40px;
+            font-size: 14px;
+            line-height: 24px;
+        }
+        a{
+            color: #333;
+        }
+    }
+}

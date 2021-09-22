@@ -1,0 +1,107 @@
+// body {
+//     background: #333;
+// }
+
+#comming {
+    padding: 90px 0;
+    background: #333;
+    height: 700px;
+
+    a {
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+        font-size: 66px;
+        font-weight: 800;
+        color: #fff;
+        text-transform: uppercase;
+        line-height: 1;
+        // display: inline-block;
+
+
+        span {
+            color: #1b1c25;
+            -webkit-text-stroke: 1px #f79645;
+        }
+    }
+
+    p {
+        color: #999;
+        font-size: 1.1rem;
+        letter-spacing: 0;
+        margin-bottom: 2.5rem;
+        max-width: 55rem;
+    }
+
+
+    .countdown2 {
+        ul {
+            // background: rgb(107, 105, 105) !important;
+            border-radius: 5px;
+            overflow: hidden;
+            visibility: visible !important;
+            opacity: 1 !important;
+
+            li {
+                color: #fff;
+                font-size: 48px;
+                font-weight: 600;
+                padding: 0 15px;
+                margin-left: 15px;
+
+                span {
+                    display: block !important;
+                    color: #999;
+                    font-size: 13px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .icon {
+        margin-top: 30px;
+
+        a {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            background: #1b4f9b;
+            color: #fff;
+            font-size: 16px;
+            margin: 0 5px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        .twitter {
+            background: #00adef;
+        }
+
+        .instagram {
+            background: #cc0001;
+        }
+
+        .youtube {
+            background: #2c5670;
+        }
+
+        .pinterest {
+            background: #f96a02;
+        }
+    }
+
+        .copy {
+            color: #999;
+            font-size: 1rem;
+            letter-spacing: 0;
+            margin-top: 2.5rem;
+            max-width: 55rem;
+        }
+    }

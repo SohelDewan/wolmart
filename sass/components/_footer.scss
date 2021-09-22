@@ -1,0 +1,162 @@
+#footer_part {
+    padding: 50px 0 40px;
+
+    .part_1 {
+        padding-bottom: 50px;
+        border-bottom: 1px solid #eee;
+
+        .footer_logo {
+            a {
+                img {
+                    width: 150px;
+                }
+            }
+
+            p {
+                @include fntfm(#666, 13px, 400, $poppins);
+                padding: 10px 0;
+
+                text-transform: capitalize;
+
+                b {
+                    @include fntfm(#333, 14px, 500, $poppins);
+                    margin-left: 5px;
+                }
+            }
+
+            h2 {
+                @include fntfm(#363636, 20px, 400, $poppins);
+
+            }
+
+            .register {
+                @include fntfm(#666, 13px, 300, $poppins);
+                line-height: 26px;
+                margin-bottom: 15px;
+                padding-right: 117px;
+            }
+
+            .icon {
+                a {
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    background: #1b4f9b;
+                    color: #fff;
+                    font-size: 16px;
+                    margin: 0 5px;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                }
+
+                .twitter {
+                    background: #00adef;
+                }
+
+                .instagram {
+                    background: #cc0001;
+                }
+
+                .youtube {
+                    background: #2c5670;
+                }
+
+                .pinterest {
+                    background: #f96a02;
+                }
+            }
+        }
+
+        .company {
+            h3 {
+                @include fntfm(#363636, 16px, 500, $poppins);
+                text-transform: uppercase;
+                margin-bottom: 15px;
+            }
+
+            ul {
+                li {
+                    a {
+                        @include fntfm(#666, 14px, 400, $poppins);
+                        text-transform: capitalize;
+                        margin-bottom: 7px;
+                    }
+                }
+            }
+        }
+    }
+
+    .part_2 {
+        padding: 50px 0 20px;
+        border-bottom: 1px solid #f1f1f1;
+
+        .all_items {
+            .categories_box {
+                margin-bottom: 30px;
+
+                h6 {
+                    @include fntfm(#666, 16px, 600, $poppins);
+                    display: inline-block;
+                    text-transform: capitalize;
+                    margin-right: 10px;
+                }
+
+                a {
+                    @include fntfm(#666, 14px, 400, $poppins);
+                    padding: 0 10px;
+                    text-transform: capitalize;
+                    position: relative;
+                  
+
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        right: 0;
+                        top: 5px;
+                        width: 1px;
+                        height: 12px;
+                        background: #999;
+                    }
+
+                    &:last-child {
+                        &::after {
+                            display: none;
+                        }
+                    }
+
+                    &:hover {
+                        color: #336699;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .part_3 {
+        padding-top: 40px;
+
+        .copy_right {
+            p {
+                @include fntfm(#666, 13px, 400, $poppins);
+                text-transform: capitalize;
+            }
+        }
+
+        .copy_icon {
+            text-align: right;
+
+            span {
+                @include fntfm(#666, 14px, 400, $poppins);
+                margin-right: 45px;
+            }
+
+        }
+    }
+
+
+}

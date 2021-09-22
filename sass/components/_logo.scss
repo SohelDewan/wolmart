@@ -1,0 +1,150 @@
+@import '../variables/fontfamily';
+@import '../mixins/fontstyle';
+@import '../variables/transition';
+
+#logo_part{
+    padding: 35px 0;
+    background: #fff;
+    border-bottom: 1px solid #f1f1f1;
+    .logo img{
+        width: 144px;
+    }
+    .logo_form{
+        border: 2px solid #336699;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            left: 135px;
+            top: 5px;
+            width: 1px;
+            height: 30px;
+            background: #f1f1f1;
+        }
+        select{
+            width: 140px;
+            border: 0;
+            height: 40px;
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+            
+}
+    button{
+        border: 0;
+        color: rgb(78, 77, 77);
+        background:#fff;
+        font-size: 17px;
+        margin: 0 10px;
+        font-family: $poppins;
+    }
+    input{
+        border: 0;
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+    }
+    }
+    .logo_cart{
+        ul{
+            li{ margin:0 20px;
+                position: relative;
+                &:first-child{
+                    padding-left: 25px;
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        right: -18px;
+                        top: 5px;
+                        width: 1px;
+                        height: 30px;
+                        background: #d1cfcf; 
+                    }
+                    i{  
+                        position: absolute;
+                        left: -7px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        -webkit-transform: translateY(-50%);
+                        -moz-transform: translateY(-50%);
+                        -ms-transform: translateY(-50%);
+                        -o-transform: translateY(-50%);
+                        }
+                }
+               i{
+                   display: block;
+                   text-align: center;
+                   color: rgb(58, 58, 58);
+                   font-size: 26px;
+                   &:hover{
+                    color: #336699;
+                    cursor: pointer;
+                }
+               }
+               &:last-child{
+                   position: relative;
+                   b{
+                       position: absolute;
+                       content: '';
+                       top:-5px;
+                       left: 16px;
+                       height: 18px;
+                       width: 18px;
+                       line-height: 18px;
+                       font-size: 13px;
+                       padding-left: 6px;
+                       background: #336699;
+                       color: #fff;
+                       border-radius: 50%;
+                       -webkit-border-radius: 50%;
+                       -moz-border-radius: 50%;
+                       -ms-border-radius: 50%;
+                       -o-border-radius: 50%;
+                       
+                    }
+                    
+               }
+               a{
+                   color: #222;
+                   font-size: 14px;
+                   &:hover{
+                    color: #336699;
+                }
+               }
+
+               &:hover{
+                color: #336699;
+            }
+            }
+           
+        }
+    }
+    
+}
+.offcanvas-body {
+
+    .offbody{
+    border-bottom: 1px solid #f1f1f1;
+    margin: 10px 10px;
+}
+    .btn_crt a{
+        padding: 5px 15px;
+        border: 1px solid #222;
+        margin: 5px 5px;
+        color: #222;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        &:hover{
+            background: #336699;
+            border: 0;
+            color: #fff;
+        }
+}
+}

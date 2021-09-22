@@ -1,0 +1,193 @@
+.dokan_banner {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+
+    .overly {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 35%;
+        height: 100%;
+
+        background: rgb(56, 55, 55);
+
+        .text_icon {
+            text-align: left;
+            margin: 40px 30px;
+            color: #f1f1f1d7;
+
+            img {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                margin-left: 10px;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+
+            h4 {
+                margin-bottom: 20px;
+                margin-top: 20px;
+                margin-left: 10px;
+                color: #fff;
+            }
+
+            a {
+                color: #f1f1f1d7;
+                margin-bottom: 10px;
+                margin-left: 10px;
+                font-size: 14px;
+            }
+
+            p {
+                margin-left: 10px;
+                margin-bottom: 10px;
+                color: #f1f1f1d7;
+                font-size: 14px;
+            }
+
+            ul {
+                li {
+                    a {
+                        border: 1px solid #f1f1f1d7;
+                        height: 30px;
+                        width: 30px;
+                        line-height: 30px;
+                        text-align: center;
+                        border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+
+                        &:hover {
+                            background: #242468;
+                            border: #242468;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.click_lamp {
+    position: relative;
+
+    .lamp_timer {
+        position: absolute;
+        left: 10%;
+        bottom: 110px;
+        width: 80%;
+
+        ul {
+            background: rgb(107, 105, 105) !important;
+            border-radius: 5px;
+            overflow: hidden;
+            visibility: visible !important;
+            opacity: 1 !important;
+
+            li {
+                color: #fff;
+                font-size: 13px;
+                padding: 0 5px;
+                margin-left: 15px;
+
+                span {
+                    display: block !important;
+                    color: #fff;
+                    font-size: 13px
+                }
+            }
+        }
+        &:hover{
+            opacity: 0;
+        }
+    }
+}
+// accordion some work
+#accordion {
+    margin-top: 100px;
+   .contact_input {
+
+      form {
+         padding-top: 10px;
+
+         input {
+            width: 100% !important;
+            display: block;
+            padding: 10px 3%;
+            border: 0;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            @include fntfm(#666, 13px, 400, $poppins);
+            text-transform: capitalize;
+
+         }
+
+         textarea {
+            width: 100% !important;
+            display: block;
+            padding: 10px 3%;
+            border: 0;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            @include fntfm(#666, 13px, 400, $poppins);
+            text-transform: capitalize;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+         }
+         button{
+            background: 0;
+            border:0;
+            @include fntfm(#fff, 16px, 500, $poppins);
+            padding: 12px 25px;
+            background: #222;
+            text-transform: uppercase;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            margin: 10px 0;
+            &:hover{
+               background: #454545;
+            }
+
+         }
+      }
+   }
+   .accordion-content{
+      ul{
+         li{
+            margin-bottom: 15px;
+         }
+      }
+      .best{
+         .seller_text{
+            margin-top: 30px;
+            p{
+               @include fntfm(#333, 14px, 400, $poppins);
+            }
+            a{
+              color:#ff9933;
+              font-size: 14px;
+            }
+            h3{
+               @include fntfm(#333,20px, 600, $poppins);
+            }
+         }
+      }
+   }
+}

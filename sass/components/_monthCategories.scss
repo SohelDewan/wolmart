@@ -1,0 +1,92 @@
+#mnth_ctgry {
+
+    h3 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        font-family: $poppins;
+    }
+
+    .catgry_img {
+        border-radius: 5px;
+        background: #fff;
+        position: relative;
+
+        img {
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        h4 {
+            font-size: 18px;
+            font-family: $poppins;
+        }
+
+        .overly {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 40px;
+            text-align: center;
+
+            a {
+                display: none;
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    left: 43px;
+                    bottom: 0;
+                    width: 50%;
+                    height: 3px;
+                    background: #336699;
+                    transform: scale(0);
+                    -webkit-transform: scale(0);
+                    -moz-transform: scale(0);
+                    -ms-transform: scale(0);
+                    -o-transform: scale(0);
+                    transition: $trns;
+                    -webkit-transition: $trns;
+                    -moz-transition: $trns;
+                    -ms-transition: $trns;
+                    -o-transition: $trns;
+                }
+            }
+
+        }
+
+        &:hover {
+            box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+
+            img {
+                transform: scale(1.1);
+            }
+
+            .overly {
+                a {
+                    display: block;
+                }
+
+                h4 {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .overly {
+        a {
+            padding-bottom: 2px;
+
+            &:hover::after {
+                transform: scale(1);
+                -webkit-transform: scale(1);
+                -moz-transform: scale(1);
+                -ms-transform: scale(1);
+                -o-transform: scale(1);
+
+            }
+        }
+    }
+}

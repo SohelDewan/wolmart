@@ -1,0 +1,79 @@
+#subscribe {
+    margin: 30px 0;
+    background: #336699;
+    padding: 30px;
+    .sub_text {
+        .envelop {
+            a {
+                color: #fff;
+                font-size: 30px;
+            }
+        }
+
+        .envelop_text {
+            h4 {
+                color: #ddd;
+                font-size: 18px;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+
+            p {
+                color: #ddd;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .email {
+
+        form {
+
+
+            input {
+                color: #666;
+                font-size: 13px;
+                font-weight: 300;
+                width: 100%;
+                padding: 10px 3%;
+                border: 0;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                outline: 0;
+
+            }
+        }
+    }
+
+    .sub_button {
+        a {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            padding: 10px 25px;
+            background: #333;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+          
+
+            i {
+                color: #fff;
+                margin-left: 10px;
+                font-size: 20px;
+            }
+
+            &:hover {
+                background: #454545;
+
+            }
+        }
+    }
+}

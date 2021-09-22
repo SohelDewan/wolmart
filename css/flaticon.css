@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?574a90a8e6a11ec40832b3bedf5ca76c") format("truetype"), url("./flaticon.woff?574a90a8e6a11ec40832b3bedf5ca76c") format("woff"), url("./flaticon.woff2?574a90a8e6a11ec40832b3bedf5ca76c") format("woff2"), url("./flaticon.eot?574a90a8e6a11ec40832b3bedf5ca76c#iefix") format("embedded-opentype"), url("./flaticon.svg?574a90a8e6a11ec40832b3bedf5ca76c#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-smartphone:before {
+  content: "";
+}
+
+.flaticon-console:before {
+  content: "";
+}
+
+.flaticon-heart-shape-outline-with-lifeline:before {
+  content: "";
+}
+
+.flaticon-desktop:before {
+  content: "";
+}
+
+.flaticon-tshirt:before {
+  content: "";
+}
+
+.flaticon-home:before {
+  content: "";
+}
+
+.flaticon-bed:before {
+  content: "";
+}
+
+.flaticon-gift-box:before {
+  content: "";
+}
+
+.flaticon-cooking-pot:before {
+  content: "";
+}
+
+.flaticon-camera:before {
+  content: "";
+}
+/*# sourceMappingURL=flaticon.css.map */

@@ -1,0 +1,111 @@
+#class_part {
+    padding: 40px 0;
+
+    // .cls_img :nth-child(2){
+    //     visibility:hidden;
+    //     &:hover{
+    //         visibility: visible;
+    //     }       
+    // }
+
+    .class_menu {
+        li {
+            margin: 0 5px;
+        }
+
+        line-height: 50px;
+        margin: 25px 0;
+        justify-content: center;
+
+        button {
+            width: 100%;
+            text-align: center;
+            font-size: 13px;
+            font-weight: 600;
+            color: #222;
+            border: 1px solid #ddd;
+            padding: 0 20px;
+            margin-right: 10px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            &:hover{
+                color: #262669;
+                border: 1px solid #262669;
+            }
+        }
+    }
+
+    .class_menu .nav-link.active,
+    .class_menu .show>.nav-link {
+        color: #222;
+        width: 100%;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        background: #fff;
+        color: #262669;
+        justify-content: center;
+        border: 1px solid #262669;
+        padding: 0 10px;
+        font-family: $poppins;
+        font-weight: 600;
+    }
+
+    // .class_menu button {
+    //     width: 100%;
+    //     text-align: center;
+    //     font-size: 14px;
+    //     color: #222;
+    //     font-family: 'Oswald', sans-serif;
+    // }
+
+    // .class_inner p {
+    //     font-size: 14px;
+    //     color: #222;
+    //     font-family: 'Open Sans', sans-serif;
+    // }
+
+    .class_inner ul {
+        li {
+            width: 18.94%;
+            background: #f1f1f1;
+            color: #222;
+            margin-right: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .cls_text {
+            display: block;
+            background: #fff;
+
+            a {
+                font-family: $poppins;
+                font-size: 18px;
+                padding: 3px 5px;
+            }
+        }
+    }
+
+
+    .class_inner ul li:nth-child(5),
+    .class_inner ul li:last-child {
+        margin-right: 0;
+    }
+
+    // .class_inner ul :hover{
+    //     color: #fff;
+    //     background: var(--hover);
+    // }
+    // .class_inner ul p :hover{
+    //     color: #fff;
+    // }
+    // .class_inner ul li i{
+    //     font-size: 40px;
+    // }
+}

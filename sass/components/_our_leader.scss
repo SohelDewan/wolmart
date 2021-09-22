@@ -1,0 +1,87 @@
+#our_leader {
+    padding: 100px 0;
+
+    h2 {
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    P {
+        color: #666;
+        margin-bottom: 20px;
+
+        span {
+            display: block;
+        }
+    }
+
+    .leader_img {
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+
+        .overly {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(121, 83, 83, 0.3);
+            opacity: 0;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            .social_icon {
+                position: absolute;
+                left: 20%;
+                top: 45%;
+
+                a {
+                    font-size: 26px;
+                    padding: 0 8px;
+                    height: 50px;
+                    width: 50px;
+                    line-height: 50px;
+                    color: #fff;
+                    border: 2px solid #fff;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    transition: $trns;
+                    -webkit-transition: $trns;
+                    -moz-transition: $trns;
+                    -ms-transition: $trns;
+                    -o-transition: $trns;
+
+                    &:hover {
+                        &:first-child {
+
+                            background: #1b4f9b;
+                            border: #1b4f9b;
+                        }
+
+                        &:nth-child(2) {
+                            background: #00adef;
+                            border: #00adef;
+                        }
+
+                        &:last-child {
+                            background: #cc0001;
+                            border: #cc0001;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

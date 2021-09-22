@@ -1,0 +1,51 @@
+@import './base/common';
+
+/*=============COMMON CSS END============*/
+
+/*=============INDEX PAGE START============*/
+@import './pages/index';
+/*=============INDEX PAGE  END============*/
+
+/* =============SHOP PAGE START=============*/
+@import './pages/shop';
+/* =============SHOP PAGE END=============*/
+
+/* =============vendor-dokan-store.htmlSTART=============*/
+@import './pages/vendor-dokan-store';
+/* ============vendor-dokan-store.html END=============*/
+
+/* =============Blog Page START=============*/
+@import './pages/blog';
+/* ============Blog Page  END=============*/
+
+/* =============About Page START=============*/
+@import './pages/aboutPage';
+/* ============About Page  END=============*/
+
+/* =============Become a vendor Page START=============*/
+@import './pages/becomeAVandor';
+/* ============Become a vendor Page  END=============*/
+
+/* =============Contact Us Page START=============*/
+@import './pages/contact_info';
+/* ============Contact Us Page  END=============*/
+
+/* =============FAQ Page START=============*/
+@import './pages/faq';
+/* ============FAQ Page  END=============*/
+
+/* =============Error404 Page START=============*/
+@import './pages/error404';
+/* ============Error404 Page  END=============*/
+
+/* =============Comming soon Page START=============*/
+@import './pages/commingSoon';
+/* ============Comming soon Page  END=============*/
+
+/* =============Wishlist START=============*/
+@import './pages/wishlist';
+/* ============Wishlist  END=============*/
+
+/* =============Vendor Store list-4 START=============*/
+@import './pages/vendorStore';
+/* ============Vendor Store list-4  END=============*/

@@ -1,0 +1,32 @@
+#send_message{
+    padding: 0 0 50px;
+    .que_ans{
+        h2{
+            margin-bottom: 30px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        h4{
+            font-size: 18px;
+            font-weight: 600;
+            &:hover{
+                color: #336699;
+            }
+        }
+        p{
+            color: #666;
+        }
+        button{
+            background: #f1f1f1;
+            border: 0 !important;
+        }
+    }
+    form{
+        label{
+            margin: 20px 0;
+        }
+        button{
+            margin-top: 40px;
+        }
+    }
+}

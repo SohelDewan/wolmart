@@ -1,0 +1,44 @@
+#boost_client {
+    padding: 100px 0;
+    background: #f1f1f1;
+
+    .boost_img {
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .boost_text {
+        h2 {
+            margin: 40px 0 20px;
+            font-size: 35px;
+            font-weight: 700;
+        }
+
+        p {
+            line-height: 28px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        a {
+            padding: 12px 24px;
+            background: #222;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+
+            &:hover {
+                background: #666;
+            }
+        }
+    }
+}

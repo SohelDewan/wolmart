@@ -1,0 +1,186 @@
+#cloth_app {
+    padding-bottom: 40px 0;
+
+    h4 {
+        display: inline-block;
+        font-weight: 600;
+        font-family: $poppins;
+    }
+
+    .more {
+        text-align: right;
+
+        a {
+            color: #333;
+        }
+    }
+
+    .new_ar {
+        position: relative;
+
+        a {
+            color: #333;
+        }
+
+        h5 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: '';
+                width: 50px;
+                height: 3px;
+                background: #000;
+                bottom: -10px;
+                left: 0;
+            }
+        }
+
+        .overly {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+
+        h4 {
+            font-weight: 300;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        a {
+            font-weight: 600;
+            border: 2px solid #000;
+            border-radius: 3px;
+            padding: 3px 7px;
+
+            &:hover {
+                background: #000;
+                color: #fff;
+            }
+        }
+    }
+
+
+    .cloth_inner {
+        .cloth_img {
+            position: relative;
+            cursor: pointer;
+
+            a{
+                    display: block;
+                    img.bag2 {
+                        display: none;
+                    }
+            }
+
+            .inner_icon {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                opacity: 0;
+
+                Ul {
+                    li {
+                        margin: 0;
+
+                        a {
+                            margin: 5px 0;
+                            background: #fff;
+                            color: #666;
+                            text-align: center;
+                            font-size: 16px;
+                            height: 30px;
+                            width: 30px;
+                            line-height: 30px;
+                            border-radius: 50%;
+                            transition: $trns;
+
+                            &:hover {
+                                background: #336699;
+                                color: #fff;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            &:hover .inner_icon {
+                opacity: 1;
+            }
+
+            &:hover {
+                a{
+                    img.bag2 {
+                        display: block;
+                    }
+    
+                    img.bag1 {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .cloth_text {
+            p {
+                color: #333;
+                font-size: 13px;
+                font-family: $poppins;
+                text-align: center;
+                cursor: pointer;
+                margin-top: 10px;
+
+                &:hover {
+                    color: rgb(89, 78, 248);
+                }
+            }
+
+            .cloth_icon {
+                text-align: center;
+                justify-content: center;
+
+                a {
+                    color: coral;
+                    font-size: 12px;
+
+                    &:nth-child(4),
+                    &:nth-child(5) {
+                        color: darkgray;
+                    }
+                }
+
+                span {
+                    color: darkgray;
+                    font-size: 13px;
+                }
+
+                h4 {
+                    color: #333;
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: "poppins", sans-serif;
+                    margin-top: 5px;
+
+                    span {
+                        color: #aaa;
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-family: "poppins", sans-serif;
+                        text-decoration: line-through;
+                        margin-left: 10px;
+                    }
+                }
+            }
+
+        }
+    }
+}

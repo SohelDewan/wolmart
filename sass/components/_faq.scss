@@ -1,0 +1,23 @@
+#faq{
+    padding: 100px 0;
+    font-family: $poppins;
+    .faq_text{
+        h5{
+            color: #336699;
+            margin-bottom: 20px;
+        }
+        h2{
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+    }
+    h5{
+        margin-bottom: 30px;
+    }
+    p{
+        margin-bottom: 40px;
+        font-size: 14px;
+        color: #333;
+        line-height: 26px;
+    }
+}

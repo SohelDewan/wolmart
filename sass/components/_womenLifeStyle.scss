@@ -1,0 +1,41 @@
+#women_life{
+    padding: 20px 0;
+    .women_img{
+        position: relative;
+        .overly{
+            position: absolute;
+            top: 40px;
+            left: 40px;
+           h4{
+            margin-bottom: 0.7rem;
+            font-size: 1.4em;
+            color: rgb(231, 223, 223);
+           }
+           h2{
+            color: rgb(231, 223, 223);
+            span {
+                color: #f77c29;
+                display: block;
+            }
+           }
+        }
+    }
+    .women2_img{
+        position: relative;
+        .overly2{
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            h4{
+                margin-bottom: 0.7rem;
+                font-size: 1.4em;
+               }
+               h2{
+                span {
+                    color: #f77c29;
+                    display: block;
+                }
+               }
+        }
+    }
+}

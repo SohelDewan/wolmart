@@ -1,0 +1,49 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?971ec060c22bae4be3909d41bab7a52d") format("truetype"),
+url("./flaticon.woff?971ec060c22bae4be3909d41bab7a52d") format("woff"),
+url("./flaticon.woff2?971ec060c22bae4be3909d41bab7a52d") format("woff2"),
+url("./flaticon.eot?971ec060c22bae4be3909d41bab7a52d#iefix") format("embedded-opentype"),
+url("./flaticon.svg?971ec060c22bae4be3909d41bab7a52d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "maps-and-flags": "\f101",
+    "balance": "\f102",
+    "telephone": "\f103",
+    "heart": "\f104",
+    "bag": "\f105",
+    "tag": "\f106",
+);
+
+.flaticon-maps-and-flags:before {
+    content: map-get($flaticon-map, "maps-and-flags");
+}
+.flaticon-balance:before {
+    content: map-get($flaticon-map, "balance");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon-map, "telephone");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-bag:before {
+    content: map-get($flaticon-map, "bag");
+}
+.flaticon-tag:before {
+    content: map-get($flaticon-map, "tag");
+}

@@ -1,0 +1,43 @@
+#register {
+    padding: 50px 0;
+
+    .banner_item {
+        padding: 50px 0;
+
+
+        .reg_text {
+            text-align: center;
+
+            h2 {
+                color: #fff;
+                font-weight: 700;
+                margin-bottom: 30px;
+                font-size: 38px;
+
+                span {
+                    display: block;
+                    color: #fff;
+                    font-weight: 600;
+                }
+            }
+
+            a {
+                color: #fff;
+                border: 1px solid#fff;
+                padding: 15px 25px;
+                text-transform: uppercase;
+                border-radius: 5px;
+                font-size: 14px;
+                font-weight: 600;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+                &:hover{
+                    background: #fff;
+                    color: #333;
+                }
+            }
+        }
+    }
+}

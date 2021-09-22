@@ -1,0 +1,29 @@
+#support{
+    padding: 30px;
+    .support_bdr{
+        border:1px solid #555;
+        padding: 20px;
+    }
+    .support_text{
+        
+        i{
+            position: absolute;
+            font-size: 35px;
+            color: #336699;
+            transform: translateY(10%);
+            -webkit-transform: translateY(10%);
+            -moz-transform: translateY(10%);
+            -ms-transform: translateY(10%);
+            -o-transform: translateY(10%);
+}
+        h5{
+            padding-left: 70px;
+            font-size: 16px;
+        }
+        p{
+            font-size: 14px;
+            padding-left: 70px;
+
+        }
+    }
+}

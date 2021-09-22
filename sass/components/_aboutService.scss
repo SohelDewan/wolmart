@@ -1,0 +1,75 @@
+// .accordion-button::after {
+//     display: none;
+// }
+
+#about_service {
+    padding: 100px 0;
+
+    h2 {
+        font-weight: 700;
+        margin-top: 30px;
+    }
+
+    .clps_menu {
+        border: none;
+        border-bottom: 1px solid #ddd;
+
+        h2 {
+            margin-bottom: 0;
+
+            button {
+                position: relative;
+                font-weight: 600;
+                font-size: 20px;
+
+                &:hover {
+                    color: #336699;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    right: 20px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 13px;
+                    height: 1px;
+                    background: #000;
+                    -webkit-transform: rotate(-180deg);
+                    -moz-transform: rotate(-180deg);
+                    -ms-transform: rotate(-180deg);
+                    -o-transform: rotate(-180deg);
+                    transform: rotate(-180deg);
+
+                }
+
+                &[aria-expanded="false"]:before {
+                    position: absolute;
+                    content: "";
+                    right: 26px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    height: 14px;
+                    width: 1px;
+                    background: #000;
+
+                }
+            }
+        }
+    }
+
+    .accordion_img {
+        border-radius: 10px;
+        overflow: hidden;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+}
+
+.accordion-button:not(.collapsed) {
+    color: #333;
+    background-color: #fff;
+    box-shadow: none;
+}

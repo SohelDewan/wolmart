@@ -1,0 +1,79 @@
+#banner{
+    // position: relative;
+    .prev{
+        position: absolute;
+        left: 30px;
+        top: 50%;
+        font-size: 14px;
+        color: #222;
+        transform: translatey(-50%);
+        -webkit-transform: translatey(-50%);
+        -moz-transform: translatey(-50%);
+        -ms-transform: translatey(-50%);
+        -o-transform: translatey(-50%);
+        z-index: 1;
+    }
+    .next{
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        font-size: 14px;
+        color: #222;
+        transform: translatey(-50%);
+        -webkit-transform: translatey(-50%);
+        -moz-transform: translatey(-50%);
+        -ms-transform: translatey(-50%);
+        -o-transform: translatey(-50%);
+        z-index: 1;
+    }
+    .banner_item{
+        height: 520px;
+        .shoe_img{
+            padding-top: 80px;
+        }
+        .banner_text{ font-family: $poppins;
+            text-align: right;
+            padding-top: 150px;
+            h3{
+                font-size: 34px;
+                color: #666;
+                font-weight: 400;
+                margin-bottom: 10px;
+                span{
+                    border-bottom: 3px solid #f77c29;
+                    bottom: 10px;
+                }
+            }
+            h1{
+                font-size: 43px;
+                color: #222;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            h4{
+                font-size: 24px;
+                color: #666;
+                font-weight: 500;
+                margin-bottom: 10px;
+                span{
+                    color: #f77c29;
+                    font-size: 26px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+            }
+            a{
+                padding: 8px 16px;
+                color: #444;
+                font-size: 15px;
+                font-weight: 400;
+                text-transform: uppercase;
+                border: 2px solid #444;
+                &:hover{
+                    background: #444;
+                    color: #fff;
+                }
+            } 
+        }
+    }
+}

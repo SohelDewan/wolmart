@@ -1,0 +1,38 @@
+#menu {
+    .mcbg {
+        background: #fff;
+        border-right: 1px solid #ddd;
+    }
+}
+
+.blog_banner {
+    background: #f1f1f1;
+    padding: 60px 0;
+
+    h3 {
+        font-family: $poppins;
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+}
+.blog_img{
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.blog_search{
+    margin-bottom: 20px;
+}
+
+.blog_category {
+    margin-bottom: 20px;
+    ul {
+        li {
+            margin-bottom: 10px;
+            a {
+                color: #333;
+            }
+        }
+    }
+}

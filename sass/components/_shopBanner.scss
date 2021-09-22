@@ -1,0 +1,223 @@
+.main_drop_menu{
+    visibility: hidden;
+    opacity: 0;
+    &:hover{
+        .menu_category{
+            .main_drop_menu{
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+    }
+}
+.menu_category {
+    .shop_drop_menu {
+        visibility: hidden;
+        opacity: 0;
+        transition: all linear 0.4s;
+        -webkit-transition: all linear 0.4s;
+        -moz-transition: all linear 0.4s;
+        -ms-transition: all linear 0.4s;
+        -o-transition: all linear 0.4s;
+    }
+
+    &:hover {
+        .shop_drop_menu {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .menu_category {
+            background: #3943db;
+        }
+    }
+}
+
+#shop_banner {
+    .container {
+        font-family: $poppins;
+        padding: 70px 0 80px 80px !important;
+
+        .shop_banner_text {
+            h1 {
+                color: #fff;
+                font-weight: 700;
+                margin-bottom: 15px;
+            }
+
+            h2 {
+                margin-bottom: 10px;
+            }
+
+            a {
+                background: #333;
+                color: #fff;
+                padding: 20px 30px;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+#shop_mp {
+    padding: 30px 0 !important;
+
+    .shop_row {
+        margin-bottom: 20px;
+
+        .opt_right {
+            justify-content: end;
+
+            a {
+                margin-left: 10px;
+                font-size: 22px;
+                color: #333;
+
+                &:nth-child(3) {
+                    color: #ddd;
+
+                    &:hover {
+                        color: #333;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.shop_item {
+    position: relative;
+    text-align: center;
+
+    .overly {
+        position: absolute;
+        bottom: 120px;
+        left: 70px;
+        background: #fff;
+        display: none;
+
+        a {
+            color: #222;
+            padding: 5px;
+        }
+    }
+
+    &:hover .overly {
+        display: block;
+    }
+
+    .product-cat {
+        a {
+            color: #666;
+        }
+    }
+
+    .product-name a {
+        color: #000;
+        font-size: 16px;
+    }
+
+    .rating-reviews {
+        i {
+            color: coral;
+        }
+    }
+}
+
+.shop_collaps {
+
+    >a {
+        color: #666;
+        position: relative;
+        display: flex;
+        transition: all linear .3s;
+
+        &::after {
+            position: absolute;
+            content: '';
+            right: 10px;
+            top: 50%;
+            height: 2px;
+            width: 13px;
+            background: #000;
+            transition: all linear .3s;
+            -webkit-transition: all linear .3s;
+            -moz-transition: all linear .3s;
+            -ms-transition: all linear .3s;
+            -o-transition: all linear .3s;
+        }
+
+        &::before {
+            position: absolute;
+            content: '';
+            right: 15px;
+            top: 43%;
+            width: 2px;
+            height: 13px;
+            background: #000;
+            visibility: hidden;
+            opacity: 0;
+            transition: all linear .3s;
+            -webkit-transition: all linear .3s;
+            -moz-transition: all linear .3s;
+            -ms-transition: all linear .3s;
+            -o-transition: all linear .3s;
+        }
+
+        &.collapsed {
+            &::before {
+                transform: rotate(180deg);
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+
+        &.collapsed {
+            &::after {
+                transform: rotate(180deg);
+                -webkit-transform: rotate(180deg);
+                -moz-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                -o-transform: rotate(180deg);
+            }
+        }
+
+        h5 {
+            position: relative;
+            margin: -0.1rem 0;
+            padding: 1.4rem 2.5rem 1.4rem 0;
+            font-weight: 600;
+            font-size: 1.6rem;
+            color: #333;
+            letter-spacing: 0;
+            border-bottom: 1px solid #eee;
+            text-transform: capitalize;
+            cursor: pointer;
+            font-family: $poppins;
+
+            &::after {
+                position: absolute;
+                content: "";
+                left: 0;
+                bottom: 0.003rem;
+                width: 50%;
+                height: 2px;
+                background-color: #666;
+            }
+        }
+    }
+
+    ul {
+        margin-top: 15px;
+        a{
+            color: #444;
+            font-size: 14px;
+            font-family: $poppins;
+            padding: 7px 0;
+            &:hover{
+                color: #336699;
+            }
+        }
+    }
+}
